@@ -64,7 +64,7 @@ async def display_hms(client, callback):
     if hmses.get(str(who_id))["bar"] == in_id:
       await callback.answer( hmses.get(str(who_id))["hms"], show_alert = True )
   else:
-    await callback.answer( "بطل لعب ف حاجه مش بتاعتك يابابا 🗿", show_alert = True )
+    await callback.answer( "الامر ليس لك ", show_alert = True )
     
 @app.on_callback_query(filters.regex("hms_cancel"))
 async def cancel_hms(client, callback):

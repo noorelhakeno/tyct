@@ -91,7 +91,7 @@ REPLY_MESSAGE_BUTTONS = [
     ]
 ]
 
-@app.on_message(filters.regex("^/Lotus"), group=39)
+@app.on_message(filters.regex("^/hossam"), group=39)
 async def cpanel(_, message: Message):             
         text = REPLY_MESSAGE
         reply_markup = ReplyKeyboardMarkup(REPLY_MESSAGE_BUTTONS, resize_keyboard=True, selective=True)
@@ -110,12 +110,12 @@ async def upbkgt(client: Client, message: Message):
 @app.on_message(filters.regex("يـوتيوب. 📽"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://telegra.ph/file/fd99bed3b55e65ccb45ed.jpg",
+        photo=f"https://telegra.ph/file/2f7280171ee9c43d0acaf.jpg",
         caption=f"""يتم استخدام هذا الامر لعرض تحميل من اليوتيوب\nاستخدم الامر بهذا الشكل `تنزيل`  او  `يوتيوب`  كمثل تنزيل سوره الرحمن اضغط علي الامر لنسخ والاستخدا """,
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y"),
+                InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR"),
             ]
          ]
      )

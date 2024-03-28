@@ -2,7 +2,7 @@
         [InlineKeyboardButton("Ⴆᥲ️ᥴk", callback_data="Yrw1 " + str(m.from_user.id))],
         [InlineKeyboardButton("➡️ التالي", callback_data="Yrw3 " + str(m.from_user.id))],
         [InlineKeyboardButton("رجوع🗑", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
 """
 
 import asyncio
@@ -24,7 +24,7 @@ async def aflamAR(c: Client, m: Message):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -44,7 +44,7 @@ async def aflamAR2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -64,7 +64,7 @@ async def film(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("دراما 🌚", callback_data="drama " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع🗑", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة الافلام العربيه\n√", reply_markup=keyboard)
@@ -106,7 +106,7 @@ async def comedy(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ البدله", callback_data="Xco20 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع🔙", callback_data="film " + str(m.from_user.id))],
-        [InlineKeyboardButton("➥𝚂́𝙾𝚄𝚁𝙲𝙴 𝙻𝙾𝚃𝚄𝚂♲", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("➥𝚂́𝙾𝚄𝚁𝙲𝙴 𝙻𝙾𝚃𝚄𝚂♲", url=f"https://t.me/UU_GR")],
 
     ])
     await m.message.edit_text("◍ اهلا بك في قائمة الافلام الكوميدي العربيه\n√", reply_markup=keyboard)
@@ -942,7 +942,7 @@ async def action(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("وش سجون", callback_data="Xact9 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع 🗑", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
 
     ])
     await m.message.edit_text("اهلا بك في قائمة الافلام الاكشن العربيه", reply_markup=keyboard)
@@ -3799,7 +3799,7 @@ async def msrahia(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
         [InlineKeyboardButton("رجوع 🗑", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة الكارتون للاطفال العربيه\n√", reply_markup=keyboard)
@@ -3820,7 +3820,7 @@ async def Xms1(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("عالم كارتونيتو", callback_data="Xmsrh5 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع 🗑", callback_data="msrahia " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -3854,7 +3854,7 @@ async def Xmsrh1(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 17", callback_data="Zmsrh404 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع🗑", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -3886,7 +3886,7 @@ async def Xmsrh2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 14", callback_data="Zmsrh419 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع 🗑", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمه 🔘 | كرتون اسبونج بوب |\n√", reply_markup=keyboard)
@@ -3925,7 +3925,7 @@ async def Xmsrh3(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 22", callback_data="Zmsrh442 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع🗑", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
