@@ -3,7 +3,7 @@ from MatrixMusic import app
 import asyncio
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from MatrixMusic.core.call import Yukki
+from MatrixMusic.core.call import Zelzaly
 from MatrixMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError)
 
