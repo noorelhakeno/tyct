@@ -15,8 +15,8 @@ async def zdatsr(client: Client, message: Message):
     usr = await client.get_users(OWNER_ID)
     name = usr.first_name
     usrnam = usr.username
-    await message.reply_video(
-        video=f"https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
         caption=f"""<b>↯︙مرحباً بك عزيزي</b>\n<b>↯︙استخدم الازرار بالاسفل\n» ل تصفح اوامر الميوزك</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
