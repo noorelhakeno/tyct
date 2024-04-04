@@ -11,7 +11,7 @@ from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError)
 async def strcall(client, message):
     assistant = await group_assistant(Zelzaly,message.chat.id)
     try:
-        await assistant.join_group_call(message.chat.id, AudioPiped("./strings/call.mp3"), stream_type=StreamType().pulse_stream)
+        await assistant.join_group_call(message.chat.id, AudioPiped("./strings/hossam.mp3"), stream_type=StreamType().pulse_stream)
         text="↯︙الاعضاء الموجودين في المكالمة المرئية :\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
