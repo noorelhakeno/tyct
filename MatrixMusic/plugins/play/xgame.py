@@ -378,7 +378,7 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺." 
+               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯??𝑺𝑺𝑨𝑴⌝━⊶★━⩺." 
 
                SORGAM_BUTTON = [
                     [ 
