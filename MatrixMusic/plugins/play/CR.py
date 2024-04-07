@@ -32,9 +32,8 @@ async def huhh(client: Client, message: Message):
                  
              ],[ 
             InlineKeyboardButton(
-                        "𓏺 𝖧ꪮ᥉᥉ᥲ𝗆 . 🇵🇸 ›", url=f"https://t.me/H_OS_S_AM"), 
-                   InlineKeyboardButton(
-                        "[هـٰـيــثــہـم,،،>؛:،]", url=f"https://t.me/U2_0D"), 
+                        "𓏺 𝐇𝐎𝐒𝐒𝐀𝐌 𝐇𝐎𝐋𝐍𝐃𝐀 ✶ ✶🇳🇱", url=f"https://t.me/H_OS_S_AM"), 
+                   
              ],[ 
                   InlineKeyboardButton(
                 text="اضغط لاضافتي لمجموعتك⚡",
