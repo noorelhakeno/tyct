@@ -349,7 +349,7 @@ async def callback_query(client, CallbackQuery):
                         "°القط المجنون°" , url=f"http://t.me/gamee?game=CrazyCat"),
                 ],[
                     InlineKeyboardButton (
-                        "◁" , callback_data= 'GAME')
+                        "رجوع" , callback_data= 'GAME')
                   ],
              ]
              await CallbackQuery.edit_message_text( 
@@ -368,7 +368,7 @@ async def callback_query(client, CallbackQuery):
         InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")              
                  ],[
                 InlineKeyboardButton(
-                        "◁", callback_data="close"),
+                        "رجوع", callback_data="close"),
                ],
           ]
      
@@ -378,13 +378,13 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺." 
+               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯𝑶𝑺𝑺??𝑴⌝━⊶★━⩺." 
 
                SORGAM_BUTTON = [
                     [ 
                       InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")
                       ],[
-                         InlineKeyboardButton ('◁', callback_data= 'GAME')
+                         InlineKeyboardButton ('رجوع', callback_data= 'GAME')
                     ]
                ]    
                await CallbackQuery.edit_message_text( 

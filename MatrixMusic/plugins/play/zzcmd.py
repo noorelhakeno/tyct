@@ -28,7 +28,7 @@ async def zzzback(_, query: CallbackQuery):
                         "‹ اوامر المطور ›", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴♲", url="https://t.me/UU_GR"),
+                        "➥𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴♲", url="https://t.me/UU_GR"),
                 ],
             ]
         ),
@@ -55,7 +55,7 @@ async def mpdtsf(_, query: CallbackQuery):
                         "‹ اشعارات & المساعد ›", callback_data="zzzas"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ رجوع ›", callback_data="close"),
+                        "‹ رجوع ›", callback_data="zzzback"),
                 ],
             ]
         ),
@@ -83,7 +83,7 @@ async def zzzll(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجوع", callback_data="close"),
+                        "رجوع", callback_data="zzzback"),
                ],
           ]
         ),
@@ -128,7 +128,7 @@ async def zzzad(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجوع", callback_data="close"),
+                        "رجوع", callback_data="zzzback"),
                ],
           ]
         ),
@@ -173,7 +173,7 @@ async def zzzch(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجوع", callback_data="close"),
+                        "رجوع", callback_data="zzzback"),
                ],
           ]
         ),
@@ -203,7 +203,7 @@ async def zzzup(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجوع", callback_data="close"),
+                        "رجوع", callback_data="zzzdv"),
                ],
           ]
         ),
@@ -230,7 +230,7 @@ async def zzzsu(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجوع", callback_data="close"),
+                        "رجوع", callback_data="zzzdv"),
                ],
           ]
         ),
@@ -266,7 +266,7 @@ async def zzzbn(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجوع", callback_data="close"),
+                        "رجوع", callback_data="zzzdv"),
                ],
           ]
         ),
@@ -292,7 +292,7 @@ async def zzzas(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "‹ رجوع ›", callback_data="close"),
+                        "‹ رجوع ›", callback_data="zzzdv"),
                ],
           ]
         ),
