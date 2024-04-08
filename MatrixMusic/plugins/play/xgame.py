@@ -10,12 +10,12 @@ GAME_MESSAGE = "⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨�
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-        InlineKeyboardButton ('𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴', callback_data= 'GAME2'),
+        InlineKeyboardButton ('𝗚𝗔𝗠𝗘𝗦', callback_data= 'GAME2'),
         ],[
         InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")              
                  ],[
                 InlineKeyboardButton(
-                        "◁", callback_data="close"),
+                        "رجوع", callback_data="close"),
                ],
           ]
     
@@ -378,7 +378,7 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯??𝑺𝑺𝑨𝑴⌝━⊶★━⩺." 
+               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺." 
 
                SORGAM_BUTTON = [
                     [ 
