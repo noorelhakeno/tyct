@@ -36,7 +36,7 @@ async def zzzback(_, query: CallbackQuery):
 
 
 
-@app.on_callback_query(filters.regex("zzzdv") & SUDOERS)
+@app.on_callback_query(filters.regex("zzzdv"))
 async def mpdtsf(_, query: CallbackQuery):
    await query.edit_message_text(
        f"""<b>↯︙مرحباً بك عزيزي المطور </b>\n\n<b>↯︙استخدم الازرار بالاسفل\n↯︙ل تصفح اوامر الميوزك</b>""",
@@ -181,7 +181,7 @@ async def zzzch(_, query: CallbackQuery):
 
 
 
-@app.on_callback_query(filters.regex("zzzup") & SUDOERS)
+@app.on_callback_query(filters.regex("zzzup"))
 async def zzzup(_, query: CallbackQuery):
    await query.edit_message_text(
        f"""
@@ -211,7 +211,7 @@ async def zzzup(_, query: CallbackQuery):
 
 
 
-@app.on_callback_query(filters.regex("zzzsu") & SUDOERS)
+@app.on_callback_query(filters.regex("zzzsu"))
 async def zzzsu(_, query: CallbackQuery):
    await query.edit_message_text(
        f"""
@@ -238,7 +238,7 @@ async def zzzsu(_, query: CallbackQuery):
 
 
 
-@app.on_callback_query(filters.regex("zzzbn") & SUDOERS)
+@app.on_callback_query(filters.regex("zzzbn"))
 async def zzzbn(_, query: CallbackQuery):
    await query.edit_message_text(
        f"""
@@ -273,7 +273,7 @@ async def zzzbn(_, query: CallbackQuery):
     )
 
 
-@app.on_callback_query(filters.regex("zzzas") & SUDOERS)
+@app.on_callback_query(filters.regex("zzzas"))
 async def zzzas(_, query: CallbackQuery):
    await query.edit_message_text(
        f"""
