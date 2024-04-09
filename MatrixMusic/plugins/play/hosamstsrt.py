@@ -6,7 +6,7 @@ import string
 from pyrogram.types import Message
 from aiohttp import ClientSession
 from pyrogram import filters, Client
-from strings import get_command
+from MatrixMusic import app
 from pyrogram.types import (InlineKeyboardButton,CallbackQuery,InlineKeyboardMarkup, Message)
 from config.config import START_IMG_URL
 from MatrixMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
