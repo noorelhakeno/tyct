@@ -1,15 +1,10 @@
-import sys
 import asyncio
-import requests
-import re
-import string
-from pyrogram.types import Message
-from aiohttp import ClientSession
-from pyrogram import filters, Client
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
+from typing import Union
 from MatrixMusic import app
-from pyrogram.types import (InlineKeyboardButton,CallbackQuery,InlineKeyboardMarkup, Message)
-from config.config import START_IMG_URL
-from MatrixMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+import re
+import sys
 
 
 #استارت
