@@ -192,7 +192,7 @@ async def ayamr(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "حــــســــام الــــهــــولـــنــــدي ✶ ✶ 🇳🇱", url=f"https://t.me/H_OS_S_AM"), 
+                        "𝑯𝑶𝑺𝑺𝑨𝑴 𝑨𝑳 𝑯𝑶𝑳𝑨𝑵𝑫𝒀 ✶ ✶🇳🇱", url=f"https://t.me/H_OS_S_AM"), 
                 ],[               
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
