@@ -26,7 +26,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "G𝑟𝑜𝑢𝑝", url=f"https://t.me/teamtitoooooo"), 
+                        "G𝑟𝑜𝑢𝑝", url=f"https://t.me/A_X_l_X"), 
                  InlineKeyboardButton(
                    "𝑺𝑶𝑼𝑹𝑪𝑬 ",       url=f"https://t.me/UU_GR"), 
                  
@@ -102,7 +102,7 @@ async def yas(client, message):
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("U2_0D")
+    usr = await client.get_chat(".")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"معلومات مبرمج السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", 
