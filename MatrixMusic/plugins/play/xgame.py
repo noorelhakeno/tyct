@@ -6,7 +6,7 @@ from MatrixMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب نور\n\n❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅"
+GAME_MESSAGE = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب نور\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('❅✧الــعاب✧❅', callback_data= 'GAME1'),
@@ -314,7 +314,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅\n\nمرحبا بك في قسم العاب نور 3D\n\n❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅"
+             GAME1_MESSAGE = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\nمرحبا بك في قسم العاب نور 3D\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅"
 
              GAME1_BUTTONS = [
                  [
@@ -358,7 +358,7 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⩹━★⊷━قـسم الـعاب العـالم━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب نور\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━سـورس ميـوزك العـالم━⊶★━⩺" 
+               RETURN_GAME = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\n★¦مرحبا بك في قسم العاب نور\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅" 
 
                RETURN_BUTTON = [
                     [ 
@@ -378,7 +378,7 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅\n\n★¦العاب نور\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅" 
+               SOURCE_GAME = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\n★¦العاب نور\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅" 
 
                SORGAM_BUTTON = [
                     [ 
