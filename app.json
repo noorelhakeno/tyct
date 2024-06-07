@@ -1,7 +1,7 @@
 {
     "name": "ميوزك العالم",
     "description": "- لـ تشغيـل الاغانـي والفيديـو وتشغيل المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
-    "logo": "https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
+    "logo": "https://telegra.ph/file/b8ce6d52460e5fb6f47a9.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -29,12 +29,12 @@
       },
       "OWNER_ID": {
         "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "",
+        "value": "6799500549",
         "required": true
       },
       "STRING_SESSION": {
         "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
-        "value": "",
+        "value": "من هنا @Cr_8000_Bot",
         "required": true
       },
       "HEROKU_API_KEY": {
