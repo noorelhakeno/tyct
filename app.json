@@ -33,8 +33,8 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
-        "value": "من هنا @Cr_8000_Bot",
+        "description": "⦗ V2 ⦘ ↫ @Cr_8000_Botكـود جلسـة الحسـاب المساعـد لـ الميـوزك من هنا",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
