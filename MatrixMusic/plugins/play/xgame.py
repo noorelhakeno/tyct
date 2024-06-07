@@ -6,7 +6,7 @@ from MatrixMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "✧❅▰▰ميـوزك العــالم▰▰❅✧\n\n★¦ مرحبا بك عزيزي:\n★¦✧في قسم العاب✧نور\n\n✧❅▰▰ميـوزك العــالم▰▰❅✧"
+GAME_MESSAGE = "✧❅▰▰ميـوزك العــالم▰▰❅✧\n\n★¦ مرحبا بك عزيزي:\n★¦✧في قسم العاب✧نــور\n\n✧❅▰▰ميـوزك العــالم▰▰❅✧"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('❅✧الــعاب✧❅', callback_data= 'GAME1'),
