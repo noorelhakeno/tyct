@@ -6,13 +6,13 @@ from MatrixMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "⩹━★⊷━⌞ ســورس ميــوزك العــالم⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب نور\n\n⩹━★⊷━⌞ ســورس ميـوزك العـالم⌝━⊶★━⩺"
+GAME_MESSAGE = "❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب نور\n\n❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅"
 GAME_BUTTONS = [
     [ 
-        InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-        InlineKeyboardButton ('𝗚𝗔𝗠𝗘𝗦', callback_data= 'GAME2'),
+        InlineKeyboardButton ('❅✧الــعاب✧❅', callback_data= 'GAME1'),
+        InlineKeyboardButton ('❅✧العــاب✧❅', callback_data= 'GAME2'),
         ],[
-        InlineKeyboardButton ('⌞ سـورس مــيوزك الــعالم⌝⚡️', url =f"https://t.me/vzo_a")              
+        InlineKeyboardButton ('❅✧سـورس مــيوزك الــعالم✧❅', url =f"https://t.me/vzo_a")              
                  ],[
                 InlineKeyboardButton(
                         "رجوع", callback_data="close"),
@@ -314,7 +314,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⩹━★⊷━⌞قـسم العـاب العـالـم⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب نور 3D\n\n⩹━★⊷━⌞ ســورس ميـوزك الـعـالم⌝━⊶★━⩺"
+             GAME1_MESSAGE = "❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅\n\nمرحبا بك في قسم العاب نور 3D\n\n❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅"
 
              GAME1_BUTTONS = [
                  [
@@ -362,10 +362,10 @@ async def callback_query(client, CallbackQuery):
 
                RETURN_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-                      InlineKeyboardButton ('★¦العاب حسام', callback_data= 'GAME2')
+                      InlineKeyboardButton ('❅✧الــعاب✧❅', callback_data= 'GAME1'),
+                      InlineKeyboardButton ('❅✧الــعاب✧❅', callback_data= 'GAME2')
                       ],[
-        InlineKeyboardButton ('⌞ سـورس مـيوزك العـالم⌝⚡️', url =f"https://t.me/vzo_a")              
+        InlineKeyboardButton ('❅✧سـورس مـيوزك العـالم✧❅', url =f"https://t.me/vzo_a")              
                  ],[
                 InlineKeyboardButton(
                         "رجوع", callback_data="close"),
@@ -378,11 +378,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞قسـم تـويت⌝━⊶★━⩺\n\n★¦العاب نور\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞سـورس مـيوك العـالم⌝━⊶★━⩺." 
+               SOURCE_GAME = "❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅\n\n★¦العاب نور\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n❅─────✧❅ســورس مــيوزك العــالم❅✧─────❅" 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('⌞سـورس ميـوزك⌝⚡️', url =f"https://t.me/vzo_a")
+                      InlineKeyboardButton ('❅✧سـورس ميـوزك✧❅', url =f"https://t.me/vzo_a")
                       ],[
                          InlineKeyboardButton ('رجوع', callback_data= 'GAME')
                     ]
