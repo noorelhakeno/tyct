@@ -21,7 +21,7 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
-        caption=f"""- 𓏺 Whoever humbles #himself to god will be #exalted 𓏺""",
+        caption=f"""Whoever humbles #himself to god will be #exalted 𓏺""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -54,7 +54,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["مطور السورس", "مبرمج السورس", "المطور"])
+    command([""مطور السورس", "مبرمج السورس", "المطور""])
     
     
 )
@@ -75,7 +75,7 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["مطور السورس", "مبرمج السورس", "نور"])
+    command([""مطور السورس", "مبرمج السورس", "نور""])
     
     
 )
