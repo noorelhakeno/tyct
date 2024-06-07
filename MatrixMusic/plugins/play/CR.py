@@ -21,14 +21,14 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
-        caption=f"""W𝐞𝐥𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐡𝐨𝐬𝐬𝐚𝐦 𝐦𝐮𝐬𝐢𝐜""",
+        caption=f"""- 𓏺 Whoever humbles #himself to god will be #exalted 𓏺""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✧❅¹مــطور الســورس❅✧", url=f"https://t.me/nor_o"), 
+                        "✧❅¹مــطور❅✧", url=f"https://t.me/nor_o"), 
                  InlineKeyboardButton(
-                   "✧❅²مــطور الســورس❅✧",       url=f"https://t.me/N_7_K"), 
+                   "✧❅²مــطور❅✧",       url=f"https://t.me/N_7_K"), 
                  
              ],[ 
             InlineKeyboardButton(
@@ -54,7 +54,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["المطور"])
+    command(["مطور"])
     
     
 )
@@ -75,7 +75,7 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["مطور" , "نور","مبرمج السورس"])
+    command(["المطور" , "نور","مبرمج السورس"])
     
     
 )
