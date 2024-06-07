@@ -294,7 +294,6 @@ async def nobo(client, message):
 async def llok(client, message):
   await message.reply_text(f"تم رفع العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n حرامي وهبلغ عنه😹🚓")
 
-
 @app.on_message(filters.command(["تنزيل حرامي"], ""))
 async def kaompj(client, message):
   await message.reply_text(f"تم تنزيل العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n حرامي ربنا تاب عليه😂😔")
@@ -306,7 +305,7 @@ async def kaompj(client, message):
 )
 async def zohary(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b8ce6d52460e5fb6f47a9.jpg",
+        photo=f"https://telegra.ph/file/6e0c9ed694af7ca264ac0.mp4",
         caption= GAME_MESSAGE,
         reply_markup=InlineKeyboardMarkup(GAME_BUTTONS)
     )  
