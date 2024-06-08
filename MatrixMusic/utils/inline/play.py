@@ -66,10 +66,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="ᏢᎪႮՏᎬ", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="𝑺𝑶𝑼𝑹𝑪𝑬 ", url=f"https://t.me/UU_GR"),
-            InlineKeyboardButton(text="G𝚁𝙾𝚄𝙿", url=f"https://t.me/A_X_l_X"),
+            InlineKeyboardButton(text="✧قنـاه الـسورس✧", url=f"https://t.me/vzo_a"),
+            InlineKeyboardButton(text="✧جـروب الـدعـم✧", url=f"https://t.me/cr_nox"),
         ],[
-            InlineKeyboardButton(text="𓏺 𝐇𝐎𝐒𝐒𝐀𝐌 𝐇𝐎𝐋𝐍𝐃𝐀 ✶ ✶🇳🇱", url=f"https://t.me/H_OS_S_AM"),
+            InlineKeyboardButton(text="✧مطـور السـورس✧", url=f"https://t.me/nor_o"),
         ],[
             InlineKeyboardButton(text="اضف البوت الي مجموعتك او قناتك⚡", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
@@ -84,10 +84,10 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="ᏢᎪႮՏᎬ", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="𝑺𝑶𝑼𝑹𝑪𝑬 ", url=f"https://t.me/UU_GR"),
-            InlineKeyboardButton(text="G𝚁𝙾𝚄𝙿", url=f"https://t.me/teamtitoooooo"),
+            InlineKeyboardButton(text="✧قـناه الـسورس✧", url=f"https://t.me/vzo_a"),
+            InlineKeyboardButton(text="✧جـروب الدعـم✧", url=f"https://t.me/cr_nox"),
         ],[
-            InlineKeyboardButton(text="𓏺 𝐇𝐎𝐒𝐒𝐀𝐌 𝐇𝐎𝐋𝐍𝐃𝐀 ✶ ✶🇳🇱›", url=f"https://t.me/H_OS_S_AM"),
+            InlineKeyboardButton(text="✧𓏺مـطور السـوس✧", url=f"https://t.me/nor_o"),
         ],[
             InlineKeyboardButton(text="⚡اضف البوت الي مجموعتك او قناتك", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
