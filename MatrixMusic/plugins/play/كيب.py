@@ -109,13 +109,13 @@ async def upbkgt(client: Client, message: Message):
     )
 @app.on_message(filters.regex("يـوتيوب. 📽"))
 def reply_to_HEY(Client, message):
-    message.reply_photo(
-        photo=f"https://telegra.ph/file/2f7280171ee9c43d0acaf.jpg",
+    message.reply_video(
+        video=f"https://telegra.ph/file/9a8329cc7b5fc2df92a2f.mp4",
         caption=f"""يتم استخدام هذا الامر لعرض تحميل من اليوتيوب\nاستخدم الامر بهذا الشكل `تنزيل`  او  `يوتيوب`  كمثل تنزيل سوره الرحمن اضغط علي الامر لنسخ والاستخدا """,
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("مـطور سـورس الـعالم", url=f"https://t.me/nor_o"),
             ]
          ]
      )
