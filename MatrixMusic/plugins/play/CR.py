@@ -21,10 +21,15 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
-        caption=f"""✧❅▰▰ميـوزك العــالم▰▰❅✧
-        Whoever humbles #himself to god will be
-        #exalted
-        ✧❅▰▰ميـوزك العــالم▰▰❅✧""",
+        caption=f"""˛ ❅─────✧❅✦❅✧─────❅
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+么- 𓏺We are developers, #not heroes, so don't bark #like dogs
+
+么- 𓏺Whoever humbles #himself to god will be #exalted 𓏺
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+❅─────✧❅✦❅✧─────❅
+⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼
+.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
