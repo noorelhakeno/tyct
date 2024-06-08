@@ -20,7 +20,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_video(
-        video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
+        video=f"https://telegra.ph/file/06ea0dffac061d340b30a.mp4",
         caption=f"""❅─────✧❅✦❅✧─────❅
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
 么- 𓏺We are developers, #not heroes, so don't bark #like dogs
