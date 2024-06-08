@@ -151,7 +151,7 @@ class Userbot(Client):
             self.five.name = self.five.me.mention
             self.five.username = self.five.me.username
             assistantids.append(self.five.id)
-            LOGGER("ميوزك حسام").info(f"Assistant Five Started as {self.five.name}")
+            LOGGER("ميوزك العالم").info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
         LOGGER("ميوزك العالم").info(f"Stopping Assistants...")
