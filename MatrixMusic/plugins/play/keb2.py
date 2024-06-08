@@ -39,7 +39,7 @@ REPLY_MESSAGE = "**👋︙مـرحـبـا بـك عـزيـزي الـمـطـ�
 
 REPLY_MESSAGE_BUTTONS = [
     [
-        ("✭ W𝒆𝒍𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 𝒉𝒐𝒔𝒔𝒂𝒎 𝒎𝒖𝒔𝒊𝒄 ✭"),
+        ("✭ ❅✧مرحبا بك عزيزي في قسم كيب سورس  العالم✧❅ ✭"),
     ],
     [
         ("✭ قسم الاذاعه"),
@@ -85,12 +85,12 @@ async def cast(client: app, message):
 @app.on_message(filters.regex("✭ قـنـاة الـسـورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[ َِ.  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴.〙𝘁𝗵𝗲 𝗳 𝗶𝗿𝘀𝘁 𝗰𝗵𝗲𝗿𝘂𝗯 𝗶𝗻 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝗽𝗲𝗼𝗽𝗹𝗲 𝗳𝗼𝗹𝗹𝗼𝘄𝗲𝗱 𝗵 𝗶𝘀 𝗸𝗶𝗻𝗴𝘀 𝗮𝗻𝗱 𝗿𝗮𝗻𝗸 𖥳𝗰𝗿𝗲𝗮𝘁𝗼𝗿𝘀 𝗼𝗳 𝗽𝘂𝘀𝗵𝗰𝗵𝗲𝗻𝗸𝘆♬♪](https://t.me/UU_GR)""",
+        photo=f"https://t.me/nor_o",
+        caption=f"""[ َِ.سـورس ميـوزك الـعالم.〙-𓏺Whoever humbles #himself to god will be #exalted](https://t.me/vzo_a)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/vzo_a"),
             ]
          ]
      )
@@ -100,12 +100,12 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ مطور السورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[THIS DEV MAIN  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ](https://t.me/H_OS_S_AM)""",
+        photo=f"https://t.me/nor_o",
+        caption=f"""[THIS DEV MAIN  سـورس ميـوزك الـعالم](https://t.me/nor_o)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/vzo_a"),
             ]
          ]
      )
@@ -118,13 +118,13 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ للتواصل معنآ"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/UU_GR",
-        caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/UU_GR)""",
+        photo=f"https://t.me/vzo_a",
+        caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/vzo_a)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
-                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/H_OS_S_AM"),
+                InlineKeyboardButton("𓆩🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/vzo_a"),
+                InlineKeyboardButton("𓆩︙مطور الـسـورس︙𓆪", url=f"https://t.me/nor_o"),
             ]
          ]
      )
@@ -133,12 +133,12 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ مطور السورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[مطور السورس](https://t.me/H_OS_S_AM)""",
+        photo=f"https://t.me/nor_o",
+        caption=f"""[مطور السورس](https://t.me/nor_o)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/H_OS_S_AM"),
+                InlineKeyboardButton("𓆩︙مطور الـسـورس︙𓆪", url=f"https://t.me/nor_o"),
             ]
          ]
      )
@@ -186,7 +186,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "سـورس العـالم", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -204,7 +204,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "سـورس العـالم ", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -223,7 +223,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢سـوري الـعالم⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -242,7 +242,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢سـورس الـعالم⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -260,7 +260,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢سـورس العـالم⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -280,7 +280,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢سـورس الـعالم⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -298,7 +298,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢ميــوزك العــالم⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -316,25 +316,25 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢مــيوزك الـعالم ⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("༺┉⊶﴿♡   𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ĶËŸBÖÄŖĐ ♡﴾⊷┉༻") & filters.private & SUDOERS)
+@app.on_message(filters.regex("༺┉⊶﴿♡ مــيوزك الـعالم كيب ♡﴾⊷┉༻") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""**نبذه سريعه عن**  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ĶËŸBÖÄŖĐ **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
+                    f"""**نبذه سريعه عن** مــيوزك الـعالم كيب   **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢مــيوزك الـعالم ⸥", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -350,7 +350,7 @@ async def italy(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢مــيوزك الـعالم ⸥", url=f"https://t.me/vzo_a"),
                ],
             ]
         ),
