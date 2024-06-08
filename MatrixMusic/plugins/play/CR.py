@@ -22,8 +22,9 @@ async def huhh(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
         caption=f"""✧❅▰▰ميـوزك العــالم▰▰❅✧
-        Whoever humbles #himself to god will be #exalted
-                    ✧❅▰▰ميـوزك العــالم▰▰❅✧""",
+        Whoever humbles #himself to god will be
+        #exalted
+        ✧❅▰▰ميـوزك العــالم▰▰❅✧""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -64,7 +65,7 @@ async def yas(client, message):
     usr = await client.get_chat("NOR_O")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مطور السورس\n\n‍ ¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\nســورس ميــوزك العـالم", 
+    await message.reply_photo(photo,       caption=f"معلومات مطور السورس\n\n‍ ¦➻ 𝐍𝐀𝐌𝐄 :{name}\n\n ¦➻ 𝐔𝐒𝐄𝐑 :@{usr.username}\n\n ¦➻ 𝐈𝐃 :`{usr.id}`\n\n ¦➻ 𝐁𝐎𝐈 :{usr.bio}\n\nســورس ميــوزك العـالم", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -85,7 +86,7 @@ async def yas(client, message):
     usr = await client.get_chat("NOR_O")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مطور السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦boi :{usr.bio}\n\nسـورس مـيوزك العـالم", 
+    await message.reply_photo(photo,       caption=f"معلومات مطور السورس.\n\n¦➻ 𝐍𝐀𝐌𝐄 :{name}\n\n ¦➻ 𝐔𝐒𝐄𝐑 :@{usr.username}\n\n ¦➻ 𝐈𝐃 :`{usr.id}`\n\n ¦➻ 𝐁𝐎𝐈 :{usr.bio}\n\nسـورس مـيوزك العـالم", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -107,7 +108,7 @@ async def yas(client, message):
     usr = await client.get_chat("N_7_K")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مبرمج السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\nسـورس مـيوزك الـعالم", 
+    await message.reply_photo(photo,       caption=f"معلومات مبرمج السورس.\n\n¦➻ 𝐍𝐀𝐌𝐄 :{name}\n\n ¦➻ 𝐔𝐒𝐄𝐑 :@{usr.username}\n\n ¦➻ 𝐈𝐃 :`{usr.id}`\n\n ¦➻ 𝐁𝐎𝐈 :{usr.bio}\n\nسـورس مـيوزك الـعالم", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
