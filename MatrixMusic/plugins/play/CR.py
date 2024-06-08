@@ -19,20 +19,20 @@ from random import  choice, randint
     
 )
 async def huhh(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
-        caption=f"""W𝐞𝐥𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐡𝐨𝐬𝐬𝐚𝐦 𝐦𝐮𝐬𝐢𝐜""",
+    await message.reply_video(
+        video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
+        caption=f"""✧❅▰▰ميـوزك العــالم▰▰❅✧Whoever humbles #himself to god will be #exalted✧❅▰▰ميـوزك العــالم▰▰❅✧""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "G𝑟𝑜𝑢𝑝", url=f"https://t.me/A_X_l_X"), 
+                        "✧❅¹مــطور❅✧", url=f"https://t.me/nor_o"), 
                  InlineKeyboardButton(
-                   "𝑺𝑶𝑼𝑹𝑪𝑬 ",       url=f"https://t.me/UU_GR"), 
+                   "✧❅²مــطور❅✧",       url=f"https://t.me/N_7_K"), 
                  
              ],[ 
             InlineKeyboardButton(
-                        "𓏺 𝐇𝐎𝐒𝐒𝐀𝐌 𝐇𝐎𝐋𝐍𝐃𝐀 ✶ ✶🇳🇱", url=f"https://t.me/H_OS_S_AM"), 
+                        "❅✧قـناه السـورس✧❅", url=f"https://t.me/vzo_a"), 
                    
              ],[ 
                   InlineKeyboardButton(
@@ -54,15 +54,15 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["المطور حسام"])
+    command(["المطور نور"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("H_OS_S_AM")
+    usr = await client.get_chat("nor_o")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مطور السورس\n\n‍ ¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", 
+    await message.reply_photo(photo,       caption=f"معلومات مطور السورس\n\n‍ ¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\nســورس ميــوزك العـالم", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -75,15 +75,15 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["الهولندي" , "حسام","مبرمج السورس"])
+    command(["حكم" , "نور","مبرمج السورس"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("H_OS_S_AM")
+    usr = await client.get_chat("nor_o")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مطور السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦boi :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", 
+    await message.reply_photo(photo,       caption=f"معلومات مطور السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦boi :{usr.bio}\n\nسـورس مـيوزك العـالم", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -97,15 +97,15 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["مطور السورس" , "هيثوم","هيثم"])
+    command(["مطور السورس" , "الحاكم","احمد"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat(".")
+    usr = await client.get_chat("N_7_K")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"معلومات مبرمج السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", 
+    await message.reply_photo(photo,       caption=f"معلومات مبرمج السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦bio :{usr.bio}\n\nسـورس مـيوزك الـعالم", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
