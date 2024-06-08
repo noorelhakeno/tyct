@@ -93,11 +93,11 @@ developer = []
 command = ["/"]
 
 
-START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/29a590adb8eee4082d4f0.jpg"
+START_IMG_URL = video(
+    "START_IMG_URL", "https://telegra.ph/file/06ea0dffac061d340b30a.mp4"
 )
-PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/29a590adb8eee4082d4f0.jpg"
+PING_IMG_URL = video(
+    "PING_IMG_URL", "https://telegra.ph/file/06ea0dffac061d340b30a.mp4"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/29a590adb8eee4082d4f0.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/29a590adb8eee4082d4f0.jpg"
