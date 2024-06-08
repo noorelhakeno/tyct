@@ -25,7 +25,7 @@ def private_panel(_):
         ],
         
         [
-            InlineKeyboardButton(text="مطور البوت", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="✧مطور البوت✧", user_id=config.OWNER_ID),
             InlineKeyboardButton(text="✧جـروب الدعـم✧", url=f"https://t.me/cr_nox"), 
         ],
         [
