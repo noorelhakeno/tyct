@@ -13,7 +13,7 @@ from MatrixMusic import app
 
 
 ########################### بوت حذف
-@app.on_message(filters.command(["بوت حذف", "عاوز احذف", "عاوزه احذف"], ""))
+@app.on_message(filters.command(["الحذف", "عاوز احذف", "عاوزه احذف"], ""))
 async def svksksa(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/06b0d6f4227097d519aa8.mp4",
