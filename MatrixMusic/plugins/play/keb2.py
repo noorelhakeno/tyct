@@ -39,73 +39,82 @@ REPLY_MESSAGE = "**👋︙مـرحـبـا بـك عـزيـزي الـمـطـ�
 
 REPLY_MESSAGE_BUTTONS = [
     [
-        ("✭ W𝒆𝒍𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 𝒉𝒐𝒔𝒔𝒂𝒎 𝒎𝒖𝒔𝒊𝒄 ✭"),
+        ("✧❅مرحبا بك عزيزي في قسم كيب سورس العالم❅✧"),
     ],
     [
-        ("✭ قسم الاذاعه"),
-        ("✭ تحكم الحساب المساعد"),
+        ("✧❅قسم الاذاعه❅✧"),
+        ("✧❅تحكم الحساب المساعد❅✧"),
     ],
     [
         
-        ("✭ قسم الجروبات"),
-        ("✭ قسم المطورين"),
+        ("✧❅قسم الجروبات❅✧"),
+        ("✧❅قسم المطورين❅✧"),
        
     ],
     [
-        ("✭ السورس"),
+        ("✧❅السورس❅✧"),
     ],
 ]
 
 
 
     
-@app.on_message(filters.command(["✭ قسم الاذاعه"], "") & SUDOERS)
+@app.on_message(filters.command(["✧❅قسم الاذاعه❅✧"], "") & SUDOERS)
 async def cast(client: app, message):
-    kep = ReplyKeyboardMarkup([["✭ اذاعه عام","✭ اذاعه بالتوجيه"],["✭ رجوع"]], resize_keyboard=True)
+    kep = ReplyKeyboardMarkup([["✧❅اذاعه عام❅✧","❅✧اذاعه بالتوجيه✧❅"],["❅✧رجوع✧❅"]], resize_keyboard=True)
     await message.reply_text("**أهلا بك عزيزي المطور **\n**هنا قسم الاذاعه تحكم بالازار**", reply_markup=kep)
     
-@app.on_message(filters.command(["✭ السورس"], "") & SUDOERS)
+@app.on_message(filters.command(["✧❅السورس❅✧"], "") & SUDOERS)
 async def cast(client: app, message):
-    kep = ReplyKeyboardMarkup([["✭ قـنـاة الـسـورس","✭ للتواصل معنآ"], ["✭ مطور السورس"], ["✭ رجوع"]], resize_keyboard=True)
+    kep = ReplyKeyboardMarkup([["❅✧قـنـاة الـسـورس✧❅","✧❅للتواصل معنآ❅✧"], ["✧❅مطور السورس❅✧"], ["✧❅رجوع❅✧"]], resize_keyboard=True)
     await message.reply_text("**أهلا بك عزيزي المطور **\n**هنا قسم السورس تحكم بالازار**", reply_markup=kep)
     
-@app.on_message(filters.command(["✭ قسم المطورين"], "") & SUDOERS)
+@app.on_message(filters.command(["✧❅قسم المطورين❅✧"], "") & SUDOERS)
 async def cast(client: app, message):
-    kep = ReplyKeyboardMarkup([["✭ مـطـوريـنـك","✭ للتواصل معنآ"],  ["✭ رجوع"]], resize_keyboard=True)
+    kep = ReplyKeyboardMarkup([["❅✧مـطـوريـنـك✧❅","✧❅للتواصل معنآ❅✧"],  ["✧❅رجوع❅✧"]], resize_keyboard=True)
     await message.reply_text("**أهلا بك عزيزي المطور **\n**هنا قسم المطورين تحكم بالازار**", reply_markup=kep)
 
-@app.on_message(filters.command(["✭ قسم الجروبات"], "") & SUDOERS)
+@app.on_message(filters.command(["✧❅قسم الجروبات❅✧"], "") & SUDOERS)
 async def cast(client: app, message):
-    kep = ReplyKeyboardMarkup([["✭ الجروبات المحظوره","✭ الاحصائيات","✭ حـظـر الـجـروبـات"], ["✭ رجوع","✭ جـروبـاتـك النـشـطـه"]], resize_keyboard=True)
+    kep = ReplyKeyboardMarkup([["❅✧الجروبات المحظوره❅✧","✧❅الاحصائيات❅✧","✧❅حـظـر الـجـروبـات✧❅"], ["❅✧رجوع✧❅","✧❅جـروبـاتـك النـشـطـه❅✧"]], resize_keyboard=True)
     await message.reply_text("**أهلا بك عزيزي المطور **\n**هنا قسم الجروبات تحكم بالازار**", reply_markup=kep)
 
 
 
 
-@app.on_message(filters.regex("✭ قـنـاة الـسـورس"))
+@app.on_message(filters.regex("✧❅قـنـاة الـسـورس❅✧"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[ َِ.  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴.〙𝘁𝗵𝗲 𝗳 𝗶𝗿𝘀𝘁 𝗰𝗵𝗲𝗿𝘂𝗯 𝗶𝗻 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝗽𝗲𝗼𝗽𝗹𝗲 𝗳𝗼𝗹𝗹𝗼𝘄𝗲𝗱 𝗵 𝗶𝘀 𝗸𝗶𝗻𝗴𝘀 𝗮𝗻𝗱 𝗿𝗮𝗻𝗸 𖥳𝗰𝗿𝗲𝗮𝘁𝗼𝗿𝘀 𝗼𝗳 𝗽𝘂𝘀𝗵𝗰𝗵𝗲𝗻𝗸𝘆♬♪](https://t.me/UU_GR)""",
+        photo=f"https://t.me/NOR_O",
+        caption=f"""[ َِ.❅✧سـورس مـيوزك العـالم✧❅.〙مرحبا بك عزيزي في قسم كيب سورس  العالم
+❅─────✧❅✦❅✧─────❅
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+么- 𓏺We are developers, #not heroes, so don't bark #like dogs
+
+么- 𓏺Whoever humbles #himself to god will be #exalted 𓏺
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+❅─────✧❅✦❅✧─────❅
+⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼
+.""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("✧❅قـنـاة الـسـورس✧❅", url=f"https://t.me/vzo_a"),
             ]
          ]
      )
   )
     
 
-@app.on_message(filters.regex("✭ مطور السورس"))
+@app.on_message(filters.regex("❅✧مطور السورس✧❅"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[THIS DEV MAIN  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ](https://t.me/H_OS_S_AM)""",
+        photo=f"https://t.me/NOR_O",
+        caption=f"""[THIS DEV MAIN  مــطور الســورس  ](https://t.me/NOR_O)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("❅✧قـنـاة الـسـورس✧❅", url=f"https://t.me/vzo_a"),
             ]
          ]
      )
@@ -115,30 +124,30 @@ def reply_to_HEY(Client, message):
     
 
 
-@app.on_message(filters.regex("✭ للتواصل معنآ"))
+@app.on_message(filters.regex("❅✧للتواصل معنآ✧❅"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/UU_GR",
-        caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/UU_GR)""",
+        photo=f"https://t.me/vzo_a",
+        caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/vzo_a)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
-                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/H_OS_S_AM"),
+                InlineKeyboardButton("✧❅قـنـاة الـسـورس❅✧", url=f"https://t.me/vzo_a"),
+                InlineKeyboardButton("❅✧مطور الـسـورس✧❅", url=f"https://t.me/NOR_O"),
             ]
          ]
      )
   )
     
-@app.on_message(filters.regex("✭ مطور السورس"))
+@app.on_message(filters.regex("❅✧مطور السورس✧❅"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[مطور السورس](https://t.me/H_OS_S_AM)""",
+        photo=f"https://t.me/NOR_O",
+        caption=f"""[❅✧مطور السورس✧❅](https://t.me/NOR_O)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/H_OS_S_AM"),
+                InlineKeyboardButton("❅✧مطور الـسـورس✧❅", url=f"https://t.me/NOR_O"),
             ]
          ]
      )
@@ -186,7 +195,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قـناه الـسورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -204,7 +213,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "✧❅قــناه الـسورس❅✧", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -212,7 +221,7 @@ async def italy(client: Client, message: Message):
 
 
 
-@app.on_message(filters.regex("✭ المحـظـوريـن") & filters.private & filters.private & SUDOERS)
+@app.on_message(filters.regex("✧❅المحـظـوريـن❅✧") & filters.private & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
@@ -223,7 +232,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الـسورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -231,7 +240,7 @@ async def italy(client: Client, message: Message):
                     
 
 
-@app.on_message(filters.regex("✭ مـطـوريـنـك") & filters.private & filters.private & SUDOERS)
+@app.on_message(filters.regex("✧❅مـطـوريـنـك❅✧") & filters.private & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
@@ -242,14 +251,14 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("✭ ايـديـهـك") & filters.private & SUDOERS)
+@app.on_message(filters.regex("❅✧ايـديـهـك✧❅") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
@@ -260,7 +269,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -269,7 +278,7 @@ async def italy(client: Client, message: Message):
 
 
 
-@app.on_message(filters.regex(" حـظـر الـجـروبـات") & filters.private & SUDOERS)
+@app.on_message(filters.regex("✧❅حـظـر الـجـروبـات❅✧") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
@@ -280,14 +289,14 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("✭ جـروبـاتـك النـشـطـه") & filters.private & SUDOERS)
+@app.on_message(filters.regex("❅✧جـروبـاتـك النـشـطـه✧❅") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
@@ -298,14 +307,14 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("✭ حـظـر الـجـروبـات") & filters.private & SUDOERS)
+@app.on_message(filters.regex("❅✧حـظـر الـجـروبـات❅✧") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
@@ -316,25 +325,25 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("༺┉⊶﴿♡   𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ĶËŸBÖÄŖĐ ♡﴾⊷┉༻") & filters.private & SUDOERS)
+@app.on_message(filters.regex("༺┉⊶﴿♡ سورس ميوزك العالم كيبورد  ♡﴾⊷┉༻") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""**نبذه سريعه عن**  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ĶËŸBÖÄŖĐ **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
+                    f"""**نبذه سريعه عن**    سورس ميوزك العالم كيبورد**: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                 ],
             ]
         ),
@@ -343,14 +352,14 @@ async def italy(client: Client, message: Message):
 
 
 
-@app.on_callback_query(filters.regex("✭ قـفـل الـكـيـبـورد") & filters.private & SUDOERS)
+@app.on_callback_query(filters.regex("✧❅قـفـل الـكـيـبـورد❅✧") & filters.private & SUDOERS)
 async def italy(_, query: CallbackQuery):
    await callback_query.edit_message_caption(caption =f"""**♬ تــم حــذف الــڪــيــبــورد .**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "❅✧قنـاه الســورس✧❅", url=f"https://t.me/vzo_a"),
                ],
             ]
         ),
