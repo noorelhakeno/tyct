@@ -41,7 +41,7 @@ async def italy(client: Client, message: Message):
                         "❅✧الـبـوت✧❅", callback_data=f"italybot"),
                 ],[
                 InlineKeyboardButton(
-                        "❅✧السورس✧❅", callback_data=f"italysou"),
+                        "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
                         "❅✧ مـيوزك الــعالم✧❅", callback_data=f"italydev"),
