@@ -21,7 +21,9 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/79a87da92fdeeef5b8c7f.mp4",
-        caption=f"""✧❅▰▰ميـوزك العــالم▰▰❅✧Whoever humbles #himself to god will be #exalted✧❅▰▰ميـوزك العــالم▰▰❅✧""",
+        caption=f"""✧❅▰▰ميـوزك العــالم▰▰❅✧
+        Whoever humbles #himself to god will be #exalted
+        ✧❅▰▰ميـوزك العــالم▰▰❅✧""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
