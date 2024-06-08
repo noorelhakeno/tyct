@@ -9,7 +9,7 @@ def start_panel(_):
             InlineKeyboardButton(
                 text="اضغط لاضافتي لمجموعتك✅", url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text="𝙶𝚁𝙾̀𝚄𝙿", url= "https://t.me/A_X_l_X"),
+            InlineKeyboardButton(text="✧جــروب الدعـم✧", url= "https://t.me/cr_nox"),
         ],
     ]
     return buttons
@@ -26,11 +26,11 @@ def private_panel(_):
         
         [
             InlineKeyboardButton(text="مطور البوت", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="𝙶𝚁𝙾̀𝚄𝙿", url=f"https://t.me/A_X_l_X"), 
+            InlineKeyboardButton(text="✧جـروب الدعـم✧", url=f"https://t.me/cr_nox"), 
         ],
         [
             
-            InlineKeyboardButton(text="𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR") , 
+            InlineKeyboardButton(text="✧قـناه الـسورس✧", url=f"https://t.me/vzo_a") , 
         ],
     ]
     return buttons
