@@ -67,7 +67,7 @@ class Userbot(Client):
             self.one.name = self.one.me.first_name
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER("ميوزك حسام").info(f"تم بدء تشغيل الحساب المساعد {self.one.name} ...✓")
+            LOGGER("ميوزك العالم").info(f"تم بدء تشغيل الحساب المساعد {self.one.name} ...✓")
 
         if config.STRING2:
             await self.two.start()
