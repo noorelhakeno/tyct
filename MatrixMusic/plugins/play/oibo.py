@@ -32,6 +32,6 @@ async def svksksa(client: Client, message: Message):
  ########################### قول  
 @app.on_message(filters.command(["قول", "كول"], ""))
  async def svksksa(client: Client, message: Message):
-    await message.reply_photo(
+    await message.reply_photo
     video=f"https://telegra.ph/file/9a8329cc7b5fc2df92a2f.mp4"
     
