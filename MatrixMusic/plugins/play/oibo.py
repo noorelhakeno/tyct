@@ -33,5 +33,6 @@ async def svksksa(client: Client, message: Message):
 @app.on_message(filters.command(["قول", "كول"], ""))
 def elko(client: Client, message: Message):
     tet = message.text.split(None, 1)[1]
-    message.reply(tet) 
+    await message.reply_video(
+    photo=f"https://telegra.ph/file/9a8329cc7b5fc2df92a2f.mp4"
     
