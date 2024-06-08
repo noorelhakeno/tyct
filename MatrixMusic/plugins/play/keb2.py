@@ -123,7 +123,7 @@ def reply_to_HEY(Client, message):
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/vzo_a"),
+                InlineKeyboardButton("𓆩︙قـنـاة الـسـورس︙𓆪", url=f"https://t.me/vzo_a"),
                 InlineKeyboardButton("𓆩︙مطور الـسـورس︙𓆪", url=f"https://t.me/nor_o"),
             ]
          ]
