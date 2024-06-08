@@ -33,9 +33,9 @@ async def italy(client: Client, message: Message):
             [
                 [
                       InlineKeyboardButton(
-                        "✧❅الـمـجـمـوعـات❅✧", callback_data=f"italygro"),
+                        "✧مـجـمـوعـات✧", callback_data=f"italygro"),
                     InlineKeyboardButton(
-                        "❅✧الـقـنـوات✧❅", callback_data=f"italycha"),
+                        "❅قـنـوات❅", callback_data=f"italycha"),
                 ],[
                 InlineKeyboardButton(
                         "❅✧الـبـوت✧❅", callback_data=f"italybot"),
