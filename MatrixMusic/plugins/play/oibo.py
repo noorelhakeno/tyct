@@ -34,5 +34,5 @@ async def svksksa(client: Client, message: Message):
 def elko(client: Client, message: Message):
     tet = message.text.split(None, 1)[1]
     await message.reply_video(
-    photo=f"https://telegra.ph/file/9a8329cc7b5fc2df92a2f.mp4"
+    video=f"https://telegra.ph/file/9a8329cc7b5fc2df92a2f.mp4"
     
