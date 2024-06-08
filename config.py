@@ -93,7 +93,7 @@ developer = []
 command = ["/"]
 
 
-START_IMG_URL = video(
+START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/06ea0dffac061d340b30a.mp4"
 )
 PING_IMG_URL = video(
